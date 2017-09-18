@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+
+</head>
+<body>
+
+
+<div class="wrapper">
+
+
+    <div class="search" id="searchDiv">
+        <label for="search"><i class="fa fa-search" aria-hidden="true"></i></label>
+        <input type="text" id='search'>
+    </div>
+
+    <div class="newContactAdd">
+        <a id="newContactAdd__button"> <img src="images/icons/add-contact.png" alt="Add new contact" style="color: white"> </a>
+    </div>
+
+
+
+    <div class="allContacts" id="allContacts">
+        <ul id="contact_list">
+
+        </ul>
+    </div>
+
+    <div id="detailedForm">
+    </div>
+
+
+
+    <div class="newContact" id="newContact">
+        <div class="newContact__form" id="newContact__form" >
+
+
+            <div class="name__section" id="name__section">
+                <label for="name" id="name__label">Имя контакта</label>
+                <input type="text" id="name" name="name" value="" class="name" required>
+
+            </div>
+
+            <div class="mobile__section" id="mobile__section">
+                <label for="mobile1" id="mobile__label">Телефон</label>
+                <input type="text" id="mobile1" name="mobile" class="mobile" placeholder="(___) ___ __ __" required >
+
+                <a id="addNewMobile"><img src="images/icons/004-add-call.png" alt="Добавить телефон"></a>
+
+            </div>
+
+
+            <div class="email__section" id="email__section">
+                <label for="email1" id="email__label">E-mail</label>
+                <input type="email" id="email1" name="email" value="" class="email" placeholder="Введите email">
+
+                <a id="addNewEmail"><img src="images/icons/003-email-add-.png" alt="Добавить e-mail"></a>
+
+
+            </div>
+
+            <div class="adress__section" id="adress__section">
+                <label for="adress1" id="adress__label">Адрес</label>
+                <input type="text" id="adress1" name="adress" value="" class="adress" placeholder="Введите адрес">
+
+                <a id="addNewAdress"><img src="images/icons/002-add-location-point.png" alt="Добавить адрес"></a>
+
+            </div>
+
+            <div class="newContact__submit" id="newContactSubmitForm">
+                <a id="newContact__submit"><img src="images/icons/save-disk.png" alt="Сохранить"></a>
+            </div>
+
+            <div class="newContact__cancel" id="newContact__cancel__form">
+                <a id="newContact__cancel"><img src="images/icons/001-cancel-button.png" alt="Отмена"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+</div>
+
+
+<!--<button id="filter">фильтер</button>-->
+
+<script src="js/main.js"></script>
+</body>
+</html>
+</html>
